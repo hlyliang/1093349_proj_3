@@ -1,16 +1,16 @@
 # 目錄
 - [題目](#題目)
 - [輸入輸出範例](#輸入輸出範例)
-  - [input]
-  - [output]
+  - [input](#input)
+  - [output](#output)
 - [說明文件](#說明文件)
-  - [struct]
-  - [全域變數]
-  - [main function]
-  - [issue function]
-  - [execute function]
-  - [wr function]
-  - [print function]
+  - [struct](#struct)
+  - [全域變數](#全域變數)
+  - [main function](#main)
+  - [issue function](#issue)
+  - [execute function](#execute)
+  - [wr function](#wr)
+  - [print function](#print)
   
 
 # 題目
@@ -59,7 +59,7 @@ bool change = false;
 ```
 
 ***
-- #### main function
+- #### main
   - ##### 讀取使用著輸入的 code 並做分割
   - ##### 判斷當前的 cycle 能不能做 issue、execute、write result
   - ##### 有做的話就要把改變的結果 print 出來
@@ -183,7 +183,7 @@ int main()
 }
 ```
 ***
-- #### issue function
+- #### issue
   - ##### 判斷是哪種 case 並把值放入 rs 中 
 ```c++
 void issue(vector<string> input, int i)
@@ -234,7 +234,7 @@ void issue(vector<string> input, int i)
 }
 ```
 ***
-- #### execute function
+- #### execute
   - ##### 把 rs 的值放入 buffer 中並記錄甚麼時候會做完
 ```c++
 void execute(int n, int bn)
@@ -258,7 +258,7 @@ void execute(int n, int bn)
 }
 ```
 ***
-- #### wr function
+- #### wr
   - ##### 把值算出來並寫回
 ```c++
 void wr(int bn)
@@ -348,7 +348,7 @@ void wr(int bn)
 }
 ```
 ***
-- #### print function
+- #### print
   - ##### 把結果印出來
 ```c++
 void print()
